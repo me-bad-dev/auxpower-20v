@@ -30,6 +30,6 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
 ## 🧰 Atmega 328p Wiring Example
 
 **Using 2N2222 transistor (NPN):**
-<div align="center">
+<div>
   <img src="https://github.com/me-bad-dev/fauxpower-20v/raw/main/Atmega328_scheme.png" width="80%">
 </div>
