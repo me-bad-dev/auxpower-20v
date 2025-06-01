@@ -21,8 +21,8 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
 |------------------|------------------------------------------|
 | ESP32, ESP8266 or Arduino | Main controller                          |
 | 2N2222 transistor or 6N137 optocoupler | Output signal isolation |
-| Transistor/Optoccoupler resistor | 1kΩ–4.5kΩ on output side                  |
-| Pull-down resistor | 1kΩkΩ on output side                  |
+| Transistor/Optoccoupler resistor | 1kΩ–4.5kΩ                  |
+| Pull-down resistor | 1kΩkΩ                 |
 ---
 
 
@@ -30,4 +30,6 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
 ## 🧰 Atmega 328p Wiring Example
 
 **Using 2N2222 transistor (NPN):**
-![alt text](https://github.com/me-bad-dev/fauxpower-20v/blob/main/Atmega328_scheme.png)
+<div align="center">
+  <img src="https://github.com/me-bad-dev/fauxpower-20v/raw/main/Atmega328_scheme.png" width="80%">
+</div>
