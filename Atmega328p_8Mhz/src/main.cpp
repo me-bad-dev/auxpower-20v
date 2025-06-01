@@ -17,7 +17,7 @@
  * 
  * Timing:
  *   - Pulse durations match captured handshake
- *   - Bitstream format and timing verified against original FASTPOWER 20V signal
+ *   - Bitstream format and timing verified against original FASTPOWER 20V/4ah battery signal
  * 
  * Notes:
  *   - Ensure proper pull-down/pull-up configuration depending on output transistor or optocoupler
