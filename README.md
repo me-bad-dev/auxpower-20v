@@ -1,4 +1,4 @@
-# WORKPRO / FastPower 20V Signal Emulator
+# WORKPRO / FastPower 20V C-Signal Emulator
 
 ⚡️ This project emulates the digital control signal used by **WORKPRO** and **FastPower 20V** lithium-ion batteries to enable operation of compatible lawn mowers and power tools without the original battery packs.
 
@@ -8,9 +8,9 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
 
 ## ✅ Features
 
-- Reproduces the authentic handshake signal from WORKPRO / FastPower 20V packs
+- Reproduces the handshake signal from WORKPRO / FastPower 20V packs
 - Works on:
-  - **ESP32/ESP8266**
+  - **ESP32 / ESP8266**
   - **Arduino UNO / Nano / ATmega328P**
 - Supports:
   - Output via **transistor** or **optocoupler** (e.g., 2N2222, 6N137)
@@ -21,7 +21,7 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
 |------------------|------------------------------------------|
 | ESP32, ESP8266 or Arduino | Main controller                          |
 | 2N2222 transistor or 6N137 optocoupler | Output signal isolation |
-| Transistor/Optoccoupler resistor | 1kΩ–4.5kΩ                  |
+| Transistor / Optocoupler resistor | 1kΩ–4.5kΩ                  |
 | Pull-down resistor | 1kΩ               |
 ---
 
