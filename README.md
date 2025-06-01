@@ -22,7 +22,7 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
 | ESP32, ESP8266 or Arduino | Main controller                          |
 | 2N2222 transistor or 6N137 optocoupler | Output signal isolation |
 | Transistor/Optoccoupler resistor | 1kΩ–4.5kΩ                  |
-| Pull-down resistor | 1kΩkΩ                 |
+| Pull-down resistor | 1kΩ               |
 ---
 
 
