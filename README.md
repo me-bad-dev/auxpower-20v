@@ -13,23 +13,30 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
   - **ESP32 / ESP8266**
   - **Arduino UNO / Nano / ATmega328P**
 - Supports:
-  - Output via **transistor** or **optocoupler** (e.g., 2N2222, 6N137)
+  - Output via **transistor** or **optocoupler** (e.g., 2N2222, ILD615)
 ---
 ## 📦 Hardware Requirements
 
 | Component         | Description                              |
 |------------------|------------------------------------------|
 | ESP32, ESP8266 or Arduino | Main controller                          |
-| 2N2222 transistor or 6N137 optocoupler | Output signal isolation |
+| 2N2222 transistor or ILD615 optocoupler | Output signal isolation |
 | Transistor / Optocoupler resistor | 1kΩ–4.5kΩ                  |
 | Pull-down resistor | 1kΩ               |
 ---
 
 
 
-## 🧰 Atmega 328p Wiring Example
+## 🧰 Atmega 328p Wiring Example - Single Channel
 
 **Using 2N2222 transistor (NPN):**
 <div>
   <img src="https://github.com/me-bad-dev/fauxpower-20v/raw/main/Atmega328_scheme.png" width="80%">
+</div>
+
+## 🧰 ESP8266 Wiring Example - Dual Channel
+
+**Using ILD615 2-channel optocoupler:**
+<div>
+  <img src="https://github.com/me-bad-dev/fauxpower-20v/raw/main/D1_Mini_DualChannel.png" width="80%">
 </div>
