@@ -38,5 +38,5 @@ Many WORKPRO and FastPower tools expect a specific digital waveform on the **con
 
 **Using ILD615 2-channel optocoupler:**
 <div>
-  <img src="https://github.com/me-bad-dev/fauxpower-20v/raw/main/D1_Mini_DualChannel.png" width="80%">
+  <img src="https://github.com/me-bad-dev/fauxpower-20v/raw/main/D1-Mini_scheme.png" width="80%">
 </div>
